@@ -1,10 +1,14 @@
 #include <iostream>
 #include "LinkedList.h"
-#include "TemplateLinkedList.h"
 
-int main()
-{
-    LinkedList<int>*list = new LinkedList<int>();
-    list->insert(1);
-    std::cout << "Hello World!\n";
+int main() {
+    LinkedList<int> myList;
+
+    myList.insertFront(10);
+    myList.insertFront(20);
+    myList.insertFront(30);
+
+    myList.insertBack(40);
+    myList.print();
+    return 0;
 }

@@ -1,0 +1,6 @@
+﻿  List.cpp
+  test.cpp
+  Generating Code...
+test.obj : error LNK2019: unresolved external symbol "public: __cdecl List<int>::List<int>(void)" (??0?$List@H@@QEAA@XZ) referenced in function main
+test.obj : error LNK2019: unresolved external symbol "public: void __cdecl List<int>::insert(int)" (?insert@?$List@H@@QEAAXH@Z) referenced in function main
+C:\Users\vicra\Documents\repos-unitec\estructura-dedatos-q3-2023\test\x64\Debug\test.exe : fatal error LNK1120: 2 unresolved externals
